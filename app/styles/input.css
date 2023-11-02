@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: white;
+}
+
+.header_mobile {
+  border-radius: 10px;
+}
+
+.btn_nav_menu {
+  border-radius: 5px;
+}
+
+.menu_items {
+  padding: 5px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: var(--white);
+}
