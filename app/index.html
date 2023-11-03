@@ -13,7 +13,7 @@
   <body class="dark:bg-zinc-700">
     <!-- Navigation mobile-first -->
 
-    <header class="header_mobile h-auto bg-teal-700">
+    <header class="header_mobile h-auto bg-purple-700">
       <nav class="nav_mobile flex flex-row justify-between items-center p-2">
         <div class="nav_mobile_logo">
           <a id="refresh_page_a" class="refresh_page_a">
@@ -31,24 +31,41 @@
         </div>
       </nav>
       <div class="menu_items flex-row justify-center hidden" id="menu_items">
-        <button class="btn_nav_menu flex flex-col items-center mx-2">
-          <span>Populares</span>
-          <ion-icon name="flame-outline" size="large"></ion-icon>
+        <button
+          class="btn_nav_menu flex flex-row items-center mx-2 text-zinc-200"
+        >
+          <span class="m-1">Populares</span>
+          <ion-icon name="flame-outline" size="small"></ion-icon>
         </button>
-        <button class="btn_nav_menu flex flex-col items-center mx-2">
-          <span>Novos</span>
-          <ion-icon name="star-outline" size="large"></ion-icon>
+        <button
+          class="btn_nav_menu flex flex-row items-center mx-2 text-zinc-200"
+        >
+          <span class="m-1">Novos</span>
+          <ion-icon name="star-outline" size="small"></ion-icon>
         </button>
-        <button class="btn_nav_menu flex flex-col items-center mx-2">
-          <span>Top cotados</span>
-          <ion-icon name="podium-outline" size="large"></ion-icon>
+        <button
+          class="btn_nav_menu flex flex-row items-center mx-2 text-zinc-200"
+        >
+          <span class="m-1">Top cotados</span>
+          <ion-icon name="podium-outline" size="small"></ion-icon>
         </button>
       </div>
     </header>
 
     <section>
-      <div id="movieList">
-
+      <div
+        class="carrossel w-full my-3 overflow-x-auto whitespace-nowrap flex dark:bg-slate-700"
+      >
+        <div
+          class="img_carrossel min-w-fit mx-1 my-2 p-3 rounded-md flex flex-col items-center"
+        >
+          <h1 class="mt-auto mb-2 text-white">Título do Filme 1</h1>
+          <img
+            src="https://image.tmdb.org/t/p/original/9yBVqNruk6Ykrwc32qrK2TIE5xw.jpg"
+            alt="imagem_teste"
+            class="w-full rounded-md"
+          />
+        </div>
       </div>
     </section>
 

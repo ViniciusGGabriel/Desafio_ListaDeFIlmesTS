@@ -4,10 +4,14 @@
 
 :root {
   --white: white;
+  --black: black;
+  --gold: #ffd700;
+  --silver: #c0c0c0;
 }
 
 .header_mobile {
   border-radius: 10px;
+  border: 2px solid var(--silver);
 }
 
 .btn_nav_menu {
@@ -17,5 +21,8 @@
 .menu_items {
   padding: 5px;
   border-radius: 0px 0px 10px 10px;
-  background-color: var(--white);
+}
+
+.img_carrossel {
+  border: 2px solid var(--silver);
 }

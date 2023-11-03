@@ -8,7 +8,7 @@ hamburger_mobile.addEventListener("click", (event) => {
   if (menu_items.classList.contains("hidden")) {
     /* Animação em ts/js */
     menu_items.animate([{ opacity: "0" }, { opacity: "1" }], {
-      duration: 200,
+      duration: 600,
       easing: "ease",
       fill: "forwards",
     });

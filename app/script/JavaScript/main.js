@@ -4,7 +4,7 @@ const hamburger_mobile = document.getElementById("hamburger_mobile");
 hamburger_mobile.addEventListener("click", (event) => {
     if (menu_items.classList.contains("hidden")) {
         menu_items.animate([{ opacity: "0" }, { opacity: "1" }], {
-            duration: 200,
+            duration: 600,
             easing: "ease",
             fill: "forwards",
         });
